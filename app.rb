@@ -8,29 +8,10 @@ get "/about" do
 	erb :about
 end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 get "/secret" do
 	"You found the secret page!!! shhhhhh!!!!"
+end
+
+get '/hello' do
+	erb :hello
 end
